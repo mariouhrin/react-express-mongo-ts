@@ -1,0 +1,11 @@
+{
+  "tslint.autoFixOnSave": true,
+  "editor.tabSize": 2,
+  "files.autoSave": "afterDelay",
+  "editor.formatOnSave": true,
+  "prettier.stylelintIntegration": true,
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "eslint.workingDirectories": ["./frontend"]
+}

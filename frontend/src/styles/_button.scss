@@ -1,0 +1,28 @@
+.button-custom {
+  color: white;
+
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+
+  background: #18ca42;
+
+  border-radius: 4px;
+}
+
+.button-custom-secondary {
+  position: absolute;
+
+  z-index: 9999;
+
+  margin-left: 7.5%;
+
+  font-size: 13px;
+  color: white;
+
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+
+  cursor: pointer;
+
+  background: rgb(66, 184, 221);
+
+  border-radius: 4px;
+}
