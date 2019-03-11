@@ -1,15 +1,15 @@
-# Simple App with Express, MongoDB and Typescript
+# Fullstack app using react, express, mongodb and TS
 
 ## Overview
 
-You can use this repo as a starter kit to create an app with express, mongodb and typescript
+Simple application dashboard showing customers data overview with simple CRUD operatoins
 
 ## Getting started
 
 ### Prerequisites
 
 required
-- Mac OS :)
+- Mac OS
 - Docker
 - Node.js (8+)
 - yarn
@@ -18,7 +18,7 @@ required
 optional
 - VSCode
 
-## Install and run
+### Install and run
 
 run this commnads step by step
 
@@ -27,14 +27,24 @@ run this commnads step by step
 - `yarn copy:env` (copy env.example to .env in yarn workspaces)
 - `yarn start` (start the app)
 
-last command will run express and mongodb
+last command will run mongodb, Hapi.js server and frontend app using webpack-dev-server
 
-app will be running on `http://localhost:3000`
+app will be running on `http://localhost:8080`
 
 ## Used Tools
+
+- **Yarn workspaces**
 
 - **Backend**
   - Docker
   - MongoDB
   - Express
   - Typescript
+
+- **Frontend**
+  - React (v16.8+ with Hooks API)
+  - Webpack (4+)
+  - Babel (7+)
+  - Axios
+  - Autoprefixer
+  - Purecss (css framework)
